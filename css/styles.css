@@ -1,0 +1,15 @@
+button {
+  margin: 10px;
+}
+.output {
+  display: none;
+}
+#democrat {
+  display: none;
+}
+#republican {
+  display: none;
+}
+img {
+  height: 300px;
+}

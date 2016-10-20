@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Political Beliefs</title>
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <h1>What Is Your Political Leaning? Find Out Here!<h1>
+        <h3>Answer questions below:</h3>
+        <h4>Should we tax the rich more?</h4>
+        <select class="form-control" id="q1">
+          <option value="0"></option>
+          <option value="1">Yes</option>
+          <option value="3">No</option>
+        </select>
+        <h4>How many assault weapons do you own?</h4>
+        <select class="form-control" id="q2">
+          <option value="0"></option>
+          <option value="1">None</option>
+          <option value="3">Several</option>
+          <option value="2">None... yet.</option>
+        </select>
+        <h4>Should the US be surrounded by a wall?</h4>
+        <select class="form-control" id="q3">
+          <option value="0"></option>
+          <option value="3">Yes</option>
+          <option value="1">No</option>
+        </select>
+        <h4>What's your favorite color?</h4>
+        <select class="form-control" id="q4">
+          <option value="0"></option>
+          <option value="1">Blue</option>
+          <option value="3">Red</option>
+        </select>
+        <button class="btn" type="submit">What am I?</button>
+        <div class="output">
+          <h2>Congratulations! You are a <span class="result"></span>!!</h2>
+          <img id="democrat" src="img/democrat.jpg" alt="a donkey" />
+          <img id="republican" src="img/republican.jpg" alt="an elephant" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
